@@ -1,0 +1,127 @@
+body {
+    background: url(../images/at.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+.centered {
+    position: fixed;
+    top: 20%;
+}
+.profile {
+    width: 250px;
+    height: 370px;
+    border-radius: 10px;
+}
+.shadow {
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 25px 17px -25px #645e61;
+}
+@font-face {
+    font-family: "Press Start 2P";
+    src: url("assets/PressStart2P-Regular.ttf") format('truetype');
+}
+nav {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    text-align: center;
+}
+nav span {
+    font-family: "Press Start 2P";
+    font-size: 23px;
+}
+nav span a {
+    color: black;
+    text-decoration: none;
+}
+nav span a:hover {
+    color: #004eff;
+    cursor: pointer;
+}
+.adjust {
+    display: inline-block;
+}
+.adjust2 {
+    margin-left: 35%;
+    margin-right: 5%;
+}
+.overlay-main {
+    position: absolute;
+}
+.overlay1 {
+    font-size: 38px;
+    left: 727px;
+    bottom: 375px;
+}
+.positioned {
+    position: relative;
+    width: 415px;
+    background-color: white;
+    bottom: 50px;
+    padding-left: 21%;
+    margin-left: 15%;
+    left: 80%;
+}
+.text-adjust-main {
+    font-family: Helvetica;
+    color: #000;
+    font-size: 75%;
+}
+.text-adjust {
+    margin-top: 20.3%;
+    color: #ed0078;
+}
+.vector {
+    width: 10px;
+    height: 10px;
+}
+.vector2 {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 18px 12px 0px 18px;
+    filter: grayscale(100%);
+    transition: ease-out 0.2s;
+}
+.vector2:hover {
+    transform: scale(1.5);
+    filter: grayscale(0%);
+}
+@-webkit-keyframes run {
+  from{
+      right:88%;
+  }
+  to{
+      right:0%;
+  }
+}
+
+.animate {
+    position: absolute;
+    -webkit-animation: run 3s linear infinite;
+    top: 88%;
+    height: 12%;
+    width: 12%;
+}
+.height-adjust {
+    height: 10px;
+}
+.overlay2 {
+    left: 450px;
+    bottom: 100px;
+    height: 370px;
+    box-shadow: 0px 25px 17px -25px #f60f6f;
+    filter: blur(1px);
+    transition: ease-in 0.3s;
+}
+.overlay2:hover {
+    transform: scale(1.07);
+    filter: blur(0px);
+    cursor: pointer;
+}
+.decorate {
+    text-decoration: none;
+}
+.decor:hover {
+    text-decoration: underline;
+}
