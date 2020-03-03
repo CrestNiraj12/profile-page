@@ -107,8 +107,8 @@ nav span a:hover {
     height: 10px;
 }
 .overlay2 {
-    left: 450px;
-    bottom: 100px;
+    left: 108%;
+    bottom: 28%;
     height: 370px;
     box-shadow: 0px 25px 17px -25px #f60f6f;
     filter: blur(1px);
