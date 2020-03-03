@@ -3,7 +3,7 @@ body {
     background-size: cover;
 }
 .centered {
-    position: fixed;
+    position: relative;
     top: 20%;
 }
 .profile {
@@ -42,7 +42,7 @@ nav span a:hover {
     display: inline-block;
 }
 .adjust2 {
-    margin-left: 35%;
+    margin-left: 8%;
     margin-right: 5%;
 }
 .overlay-main {
@@ -55,12 +55,10 @@ nav span a:hover {
 }
 .positioned {
     position: relative;
-    width: 415px;
+    width: 295px;
     background-color: white;
-    bottom: 50px;
-    padding-left: 21%;
-    margin-left: 38%;
-    left: 80%;
+    padding-left: 18%;
+    margin-left: 40%;
 }
 .text-adjust-main {
     font-family: Helvetica;
@@ -107,8 +105,8 @@ nav span a:hover {
     height: 10px;
 }
 .overlay2 {
-    left: 108%;
-    bottom: 28%;
+    left: 36%;
+    top: 10%;
     height: 370px;
     box-shadow: 0px 25px 17px -25px #f60f6f;
     filter: blur(1px);
