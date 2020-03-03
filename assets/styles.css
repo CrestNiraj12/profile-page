@@ -55,10 +55,11 @@ nav span a:hover {
 }
 .positioned {
     position: relative;
-    width: 295px;
+    width: 250px;
+    top: 5.5em;
     background-color: white;
-    padding-left: 18%;
-    margin-left: 40%;
+    padding-left: 15%;
+    margin-left: 38%;
 }
 .text-adjust-main {
     font-family: Helvetica;
@@ -77,7 +78,7 @@ nav span a:hover {
     cursor: pointer;
     width: 30px;
     height: 30px;
-    margin: 18px 12px 0px 18px;
+    margin: 5%;
     filter: grayscale(100%);
     transition: ease-out 0.2s;
 }
@@ -105,7 +106,7 @@ nav span a:hover {
     height: 10px;
 }
 .overlay2 {
-    left: 36%;
+    left: 34%;
     top: 10%;
     height: 370px;
     box-shadow: 0px 25px 17px -25px #f60f6f;
